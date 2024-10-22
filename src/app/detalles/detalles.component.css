@@ -1,0 +1,138 @@
+footer {
+    background-color: #fd2828;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-community {
+    display: flex;
+    align-items: center;
+}
+
+.join-community-btn {
+    background-color: white;
+    color: #032541;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.join-community-btn:hover {
+    background-color: #880000;
+    color: white;
+    transition: 500ms;
+}
+
+body {
+	background: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	margin: 6% auto 0;
+}
+.single-card {
+	position: relative;
+	width: 280px;
+	height: 800px;
+	margin: 15px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 0.3s ease;
+	overflow: hidden;
+	background: #c53838;
+	border-radius: 15px;
+	transition: all 0.8s ease-in-out;
+}
+.single-card:hover {
+	transform: translateY(-10px);
+}
+.img-area {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.img-area img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+.img-area:hover img {
+	transform: scale(1.1);
+}
+.single-card:hover .overlay {
+	opacity: 1;
+}
+.add-to-cart, .view-details {
+	background-color: #fff;
+	color: #333;
+	padding: 10px 15px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	margin-bottom: 10px;
+}
+.info {
+	padding: 10px;
+	text-align: center;
+	color: #ddd;
+}
+.info h3 {
+	margin: 15px 0 10px;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', sans-serif;
+}
+.info .price {
+	margin: 0;
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(9, 255, 0);
+} 
